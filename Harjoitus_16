@@ -1,0 +1,27 @@
+/*	Jani Kähkönen/H9575
+Harjoitus_16	21.9.2014	*/
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+	string etunimi, sukunimi, osoite, postinumero;
+	int kenkanumero;
+	double koulumatka;
+	cout << "Anna etunimi: "; getline(cin, etunimi);
+	cout << "Anna sukunimi: "; getline(cin, sukunimi);
+	cout << "Anna osoite: "; getline(cin, osoite);
+	cout << "Anna Postinumero: "; getline(cin, postinumero);
+	cout << "Anna Koulumatka: "; cin >> koulumatka;
+	cout << "Anna Kengannumero: "; cin >> kenkanumero;
+
+	cout << "\n" 
+		<< etunimi << "\n"
+		<< sukunimi << "\n"
+		<< osoite << "\n"
+		<< postinumero << "\n"
+		<< koulumatka << "\n"
+		<< kenkanumero << "\n";
+}
